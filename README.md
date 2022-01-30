@@ -3,7 +3,7 @@
 > 🚀 Projeto desenvolvido em React com objetivo de explorar melhor essa lib e possibilitando a aplicação em coding Dojo.
 
 <p align="center">
-  <a href="#-pré-requisitos">Pré requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 > 📋 Insira um nome e um tipo para preencher uma tabela que definirá a sua cor de brasão de acordo com o tipo inserido.
 
-### ⚙️ Pré-requisitos
+### ⚙️ Requisitos
 
 Antes de começar, você vai precisar ter instalado as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
