@@ -11,19 +11,19 @@
  <a href="#contribuicao">Contribuição</a>
 </p>
 
-[### 🚧  Magic Selector 🚀 Em construção...  🚧](#demonstracao)
+### 🚧  Magic Selector 🚀 Em construção...  🚧(#demonstracao)
 
 ![](./src/assets/banner.jpg)
 
 > 📋 Insira um nome e um tipo para preencher uma tabela que definirá a sua cor de brasão de acordo com o tipo inserido.
 
-[### ⚙️ Pré-requisitos](#pre-requisitos)
+### ⚙️ Pré-requisitos(#pre-requisitos)
 
 Antes de começar, você vai precisar ter instalado as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Opcionalmente você pode usar o editor de código [VSCode](https://code.visualstudio.com/)
 
-[### 🎲 Executando o projeto](#executando)
+### 🎲 Executando o projeto(#executando)
 
 ```bash
 # Clone este repositório
@@ -41,19 +41,19 @@ $ npm run
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
-[### 🛠 Tecnologias](#tecnologias)
+### 🛠 Tecnologias(#tecnologias)
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 
-[### 😎 Autor](#autor)
+### 😎 Autor(#autor)
 
 Guilherme Ferrari - guile.ferrari@hotmail.com
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-antonio-ferrari/)](https://www.linkedin.com/in/guilherme-antonio-ferrari/)
 
-[### 🎯 Contribuição](#contribuicao)
+### 🎯 Contribuição(#contribuicao)
 
 1. Faça o _fork_ do projeto
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/descricaoFeature`)
