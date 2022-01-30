@@ -6,19 +6,19 @@
 - [Pré requisitos](#pre-requisitos)
 - [Executando o projeto](#executando)
 
-### 🚧  Magic Selector 🚀 Em construção...  🚧
+### 🚧  Magic Selector 🚀 Em construção...  🚧(#demonstracao)
 
 ![](./src/assets/banner.jpg)
 
 > 📋 Insira um nome e um tipo para preencher uma tabela que definirá a sua cor de brasão de acordo com o tipo inserido.
 
-### ⚙️ Pré-requisitos
+### ⚙️ Pré-requisitos(#pre-requisitos)
 
 Antes de começar, você vai precisar ter instalado as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Opcionalmente você pode usar o editor de código [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Executando o projeto
+### 🎲 Executando o projeto(#executando)
 
 ```bash
 # Clone este repositório
