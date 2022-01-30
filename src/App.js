@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./assets/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Titulo from "./components/Titulo";
+import Formulario from "./components/Formulario";
+import Tabela from "./components/Tabela";
+import Legenda from "./components/Legenda";
+
+class App extends Component {
+    constructor() {
+      super();
+      this.state = {
+        valor: "",
+        tipo: ""
+      }
+      
+    };
+
+    adicionarTabela(nome, tipo) {
+      /*const novaLinha = { nome, tipo };
+      const arrayState = [...this.state.linhaTabela, novaLinha];
+      const novoState = {
+        linhaTabela: arrayState
+      };
+      this.setState(novoState);
+      console.log(this.state.linhaTabela);*/
+      const newValue = {
+        valor: nome,
+        tipo: tipo
+      }
+      this.setState(newValue);
+    };
+    
+    render() {
+      return (
+        <section>
+          <Titulo />
+            <section className="conteudo">
+              <Formulario adicionarTabela={this.adicionarTabela.bind(this)}/>
+              <Tabela conteudoNome={this.state.valor} conteudoTipo={this.state.tipo}/>
+              <Legenda />
+            </section>
+        </section>
+      );
+    };
 }
 
 export default App;

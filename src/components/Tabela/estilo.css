@@ -1,0 +1,23 @@
+.tabela {
+    border: 2px solid blue;
+    border-radius: 2rem;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.tabela-principal {
+    width: 100%;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.brasao-azul {
+    background-color: orange;
+    width: 40%;
+    height: 20px;
+    border-radius: 10px;
+}
